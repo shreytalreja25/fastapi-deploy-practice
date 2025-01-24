@@ -1,0 +1,67 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "age": 28,
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "age": 34,
+        "role": "user"
+      },
+      {
+        "id": 3,
+        "name": "Charlie Brown",
+        "email": "charlie.brown@example.com",
+        "age": 22,
+        "role": "user"
+      }
+    ],
+    "products": [
+      {
+        "id": 101,
+        "name": "Laptop",
+        "category": "Electronics",
+        "price": 899.99,
+        "stock": 12
+      },
+      {
+        "id": 102,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "price": 499.99,
+        "stock": 50
+      },
+      {
+        "id": 103,
+        "name": "Desk Chair",
+        "category": "Furniture",
+        "price": 199.99,
+        "stock": 20
+      }
+    ],
+    "orders": [
+      {
+        "order_id": 1001,
+        "user_id": 1,
+        "product_id": 101,
+        "quantity": 1,
+        "total_price": 899.99,
+        "status": "shipped"
+      },
+      {
+        "order_id": 1002,
+        "user_id": 2,
+        "product_id": 102,
+        "quantity": 2,
+        "total_price": 999.98,
+        "status": "processing"
+      }
+    ]
+  }
+  
